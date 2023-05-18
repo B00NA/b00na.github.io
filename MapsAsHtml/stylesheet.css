@@ -1,0 +1,147 @@
+/* Set up a basic font and background for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+ 
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6c757d;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #5a6268;
+}
+
+/* Style for the table */
+.key {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Style for table header and cells */
+.key th, .key td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style for the table header */
+.key th {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Style for the colored key rows */
+.key .computer {
+    background-color: #f05151;
+}
+
+.key .phone {
+    background-color: #f896df;
+}
+
+.key .printer {
+    background-color: #40ef86;
+}
+
+.key .tv {
+    background-color: #d740f6;
+}
+
+.key .facetime {
+    background-color: #a92143;
+}
+
+.key .camera {
+    background-color: #ffa600;
+}
+
+.key .empty {
+    background-color: #d5fb2d;
+}
+
+
+
+  /* TABLES STUFF */
+
+  /* Style for the main heading (h2) */
+   h2 {
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the subheadings (h3) */
+   h3 {
+    color: #666;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Global table settings */
+   table {
+    border-collapse: separate;
+    border-spacing: 0 20px; /* Add vertical space between tables */
+    width: 100%;
+    table-layout: auto; /* To allow the table to adjust width based on content */
+    overflow-x: auto; /* For horizontal scrolling if the table is too wide */
+    margin-bottom: 20px; /* Add some space at the bottom of each table */
+  }
+  
+  /* Global cell settings */
+   th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.875em; /* To ensure readability with so many columns */
+    word-wrap: break-word; /* To ensure content fits within cells */
+  }
+  
+  /* Header styles */
+   th {
+    background-color: #9eb7b8;
+    color: #333;
+  }
+
+ .portnum {
+    color: red;
+    font-weight: bold;
+  }
+
+  .switches .computers {
+    background-color: #f05151;
+}
+
+.switches .phones {
+    background-color: #f896df;
+}
+
+.switches .printers {
+    background-color: #40ef86;
+}
+
+.switches .tvs {
+    background-color: #d740f6;
+}
+
+.switches .facetimes {
+    background-color: #a92143;
+}
+
+.switches .cameras {
+    background-color: #ffa600;
+}
+
+.switches .emptys {
+    background-color: #d5fb2d;
+}
