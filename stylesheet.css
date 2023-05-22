@@ -102,13 +102,14 @@ a:hover {
    th, td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
     font-size: 0.875em; /* To ensure readability with so many columns */
     word-wrap: break-word; /* To ensure content fits within cells */
   }
   
   /* Header styles */
    th {
+    width: fit-content;
     background-color: #9eb7b8;
     color: #333;
   }
